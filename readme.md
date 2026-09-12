@@ -88,6 +88,26 @@ Try launching AIMP after that, plugin should work now.
 
 ### Change Logs
 
+#### 1.4.0-rc.1 (2026.09.12)
+
+> This is a accumulated pre-release that brings a few enhancements, fixes and code refactors committed past month.
+
+- Feat: Lyrics editor now also caches metadata(e.g. artist) information while editing (so it's now totally safe to close the editor and continue editing next time)
+- Feat: Add a preference to ignore empty lyrics lines
+    - The preference can be set separately among different play styles
+    - Two-Line play style is enabled this by default because this should be more preferred behavior
+- Feat: Allows to change character encoding when reading lrc files
+    - It can be accessed via lyrics playing window's context menu
+    - It also supports to set character encoding per-file
+- Optimize: Most part of plugin's language will change immediately when user changes AIMP's language
+- Optimize: Plugin's theme color will change immediately when user changes AIMP's theme color
+- Optimize: Better with plugin's windows closing behavior when AIMP exits
+- Fix: Some fonts(like 幼圆YouYuan) failed to render their bold variation
+- Fix: Horizontal scroll player's fade in/out appearance is incorrectly affected by text shadow
+- Fix(#11): The switch on preference window to toggle lyrics playing window may cause exception if user toggled on/off quickly
+- Chore: Removes lyrics editor's icon from AIMP's context menu, as it is rendered inappropriately under different themes and skins
+- Other minor optimizations and fixes
+
 #### 1.3.4 (2026.08.16)
 
 - Feat: Introduce dark/light theme for sub-windows(preference window and etc.), currently it follows AIMP's night mode preference

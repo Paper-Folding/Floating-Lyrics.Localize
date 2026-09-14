@@ -15,7 +15,11 @@
 Here I present my hand-made plugin: AIMP Floating Lyrics Player and Editor Plugin.
 It has these features:
 
-1. It plays synchronized lyrics file(currently only supports ".lrc" file format with UTF-8 or ASCII encoding) for your song, it reads from your local lrc file alongside with your song file, or if your song file has synchronized lyrics embedded(like ID3v2 tag supported by AIMP), it will also play it;
+1. It plays synchronized lyrics file(currently supports ".lrc/.txt" file format with character encoding selection) for your song, it reads from your local lrc file alongside with your song file, or if your song file has synchronized lyrics embedded(like ID3v2 tag supported by AIMP), it will also play it;
+    > A detailed lrc file searching order is listed below:
+    >
+    > i. Respects configs in "AIMP's Preferences - Player - Additional Information - Lyrics" section (So if your lrc file is not recognized, you should check if those configs are enabled and configured properly);  
+    > ii. Search in ID3v2 and other file tags supported by AIMP one by one.
 2. For playing lyrics, you can style text color, text size, text shadow and more, I have written a preference window to configure these(and more configurations will be brought in the future updates);
 3. For playing lyrics, currently I implemented 3 playing styles, one-line fade in fade out lyrics text, scroll horizontally and two-line;
 4. You can make or edit your own ".lrc" file, just right click the playing lyrics window, choose "Make / Edit Lyrics". Or in AIMP playlist, right click playlist item(aka, songs in your library), choose "Send to - Lyrics Editor".

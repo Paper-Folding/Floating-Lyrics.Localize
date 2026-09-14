@@ -1,5 +1,9 @@
 ### Change Logs
 
+#### 1.4.0-rc.2 (2026.09.14)
+
+- Fix: Plugin does not respect absolute path in "AIMP's Preferences - Player - Additional Information - Lyrics" section
+
 #### 1.4.0-rc.1 (2026.09.12)
 
 > This is an accumulated pre-release version that brings a few enhancements, fixes and code refactors committed past month.

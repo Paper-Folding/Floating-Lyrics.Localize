@@ -4,7 +4,7 @@
 
 - Feat: Plugin's local hotkeys will now work
     - Lyrics editor's 3 hotkeys now defaults to register locally
-    - Lyrics playing window click-through hotkey must still be global to in order to work
+    - Lyrics playing window click-through hotkey must still be global in order to work
     - A single letter key stroke(e.g. 'A' key) registered locally will not work due to limitation by underlying WPF framework: please always resort to `F1 ~ F12` keys or modifier keys when setting local hot key
     - Local hotkeys may not take affect immediately after modifying them in AIMP's preference window, which is due to temporary lacking of plugin API features provided by AIMP to aware if hotkey configurations have been changed, please restart AIMP if that happens. I may contact Artem to add support for this.
 - Fix: In rare case lyrics playing window may fail to load lyrics player properly due to some race condition

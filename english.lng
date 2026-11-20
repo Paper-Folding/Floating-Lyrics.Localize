@@ -143,6 +143,7 @@ CenterHorizontally=Center Window Horizontally
 EnableResizing=Enable Resizing
 DisableResizing=Disable Resizing
 OpenPreference=Preferences....
+OpenPreferencePreset=Presets & Preferences....
 Encoding=Character Encoding
 EncodingAuto=Auto Detection
 EncodingInternational=International

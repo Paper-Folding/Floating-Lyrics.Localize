@@ -10,6 +10,25 @@ Warning=Peringatan
 [FL_Preference]
 ResetDimension=Kembalikan Ukuran Jendela ini
 Preference=Preferensi
+CreateNewPreset=Create New Preset
+NewPreset=New Preset
+SaveAllPresets=Save All Presets
+PresetsList=Presets List
+
+DuplicatePreset=Duplicate Preset
+SetAsDefaultPreset=Set as Default Preset
+MoveUp=Move Up
+MoveDown=Move Down
+DeletePreset=Delete Preset
+DeletePresetConfirmTitle=Sure to remove preset "{0}"?
+DeletePresetHint=Any lyrics playing window using this preset will be falling back to default preset.
+
+SelectedPreset=Selected Preset:
+SavePreset=Save Preset
+DiscardChange=Discard Changes
+ApplyToAll=Apply to All Windows
+ApplyToAllHint=Apply this preset to all lyrics playing windows
+
 PlayStyleGroupTitle=Style Pemutaran
 PlayStyle=Style Pemutaran Lirik
 PlayStyle_FadeInOut=Satu Baris Fade In & Out
@@ -85,6 +104,9 @@ KaraokeEnableAskDescription=Preferensi lengkap karaoke lainnya ada di panel lain
 KaraokeSpecific=Prefrensi Unggulan Karaoke
 KaraokeTransitionWidth=Lebar Area Transisi Karaoke
 
+OpenNew=Open New
+CloseAll=Close All
+
 Save=Simpan & Terapkan
 Apply=Terapkan
 Cancel=Batal
@@ -140,6 +162,7 @@ Name=Lyrics Playing Window
 StartEditLyrics=Buat / Sunting Lirik
 ResetPositionAndDimension=Kembalikan Posisi & Dimensi
 CenterHorizontally=Jendela Horizontal Tengah
+ActivePreset=Active Preset
 OpenPreference=Preferensi....
 OpenPreferencePreset=Presets & Preferences....
 Encoding=Character Encoding
@@ -162,6 +185,7 @@ LoadFailure=Gagal memuat plugin! Kode Kesalahan: 0x{0}\nUntuk pemecahan masalah,
 
 [FL_About]
 PluginDescription=Play, make or edit synchronized lyrics for playing song on floating window.
+PluginBy=Designed & Programmed by {0}
 IconDesign=Plugin Icon Designed by
 MyWish=Hope you enjoy my plugin! :)
 Translations=Translations Contributor

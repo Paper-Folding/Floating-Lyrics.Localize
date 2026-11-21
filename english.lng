@@ -10,6 +10,25 @@ Warning=Warning
 [FL_Preference]
 ResetDimension=Reset this Window Size
 Preference=Preference
+CreateNewPreset=Create New Preset
+NewPreset=New Preset
+SaveAllPresets=Save All Presets
+PresetsList=Presets List
+
+DuplicatePreset=Duplicate Preset
+SetAsDefaultPreset=Set as Default Preset
+MoveUp=Move Up
+MoveDown=Move Down
+DeletePreset=Delete Preset
+DeletePresetConfirmTitle=Sure to remove preset "{0}"?
+DeletePresetHint=Any lyrics playing window using this preset will be falling back to default preset.
+
+SelectedPreset=Selected Preset:
+SavePreset=Save Preset
+DiscardChange=Discard Changes
+ApplyToAll=Apply to All Windows
+ApplyToAllHint=Apply this preset to all lyrics playing windows
+
 PlayStyleGroupTitle=Play Style
 PlayStyle=Lyrics Play Style
 PlayStyle_FadeInOut=One Line Fade In & Out
@@ -85,6 +104,9 @@ KaraokeEnableAskDescription=More karaoke preferences reside on other panels
 KaraokeSpecific=Karaoke Featured Preference
 KaraokeTransitionWidth=Karaoke Transition Area Width
 
+OpenNew=Open New
+CloseAll=Close All
+
 Save=Save & Apply
 Apply=Apply
 Cancel=Cancel
@@ -140,6 +162,7 @@ Name=Lyrics Playing Window
 StartEditLyrics=Make / Edit Lyrics
 ResetPositionAndDimension=Reset Position & Dimension
 CenterHorizontally=Center Window Horizontally
+ActivePreset=Active Preset
 OpenPreference=Preferences....
 OpenPreferencePreset=Presets & Preferences....
 Encoding=Character Encoding
@@ -162,6 +185,7 @@ LoadFailure=Failed to load plugin! Error Code: 0x{0}\nTo troubleshoot, please co
 
 [FL_About]
 PluginDescription=Play, make or edit synchronized lyrics for playing song on floating window.
+PluginBy=Designed & Programmed by {0}
 IconDesign=Plugin Icon Designed by
 MyWish=Hope you enjoy my plugin! :)
 Translations=Translations Contributor

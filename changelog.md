@@ -3,14 +3,14 @@
 #### 1.5.0-rc.1 (2026.11.21)
 
 - Feat(#8): Multiple lyrics playing windows feature is now implemented!
-    - You can easily create new lyrics playing windows on "Floating Lyrics" menu item on AIMP's main menu
+    - You can easily create new lyrics playing windows with "Floating Lyrics" menu item on AIMP's main menu
     - Preference window also has a button for that
-- Feat: Implement preference presets —— I think this is a quite convenient feature to have if user would like to switch among their pre-configured preferences quickly.
+- Feat: Implement preference presets —— I think this is quite a convenient feature to have if user would like to switch among their pre-configured preferences quickly.
     - A preference preset, as its name suggests, stores a set of preferences user configured.
     - Each lyrics playing window can only bind to 1 preset, user can toggle presets freely on each window's context menu
-    - Preference window now implemented as a presets manager in which you can edit preference for each presets, add, duplicate or remove them
+    - Preference window now implemented as a presets manager in which you can edit presets' preference and add, duplicate or remove presets
     - Allows to conveniently apply a preset to all windows
-- Feat: Drop "Enable/Disable Resizing" on lyrics playing windows' context menu, now they can be resized out of the box easily
+- Feat: Drop "Enable/Disable Resizing" on lyrics playing windows' context menu, now windows can be resized out of the box easily
 - Fix(#12): Lyrics playing window and preference window did not remember their positions across multiple screens
 - Other code refactors, optimizations, minor bug fixes and maintenance
 

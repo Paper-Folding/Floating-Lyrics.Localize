@@ -10,6 +10,9 @@ Warning=Warning
 [FL_Preference]
 ResetDimension=Reset this Window Size
 Preference=Preference
+CloseUnsaved=You have unsaved presets
+CloseUnsavedHint=Would you like to save all presets before closing window?
+
 CreateNewPreset=Create New Preset
 NewPreset=New Preset
 SaveAllPresets=Save All Presets

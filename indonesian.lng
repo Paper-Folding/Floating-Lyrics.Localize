@@ -10,6 +10,9 @@ Warning=Peringatan
 [FL_Preference]
 ResetDimension=Kembalikan Ukuran Jendela ini
 Preference=Preferensi
+CloseUnsaved=You have unsaved presets
+CloseUnsavedHint=Would you like to save all presets before closing window?
+
 CreateNewPreset=Create New Preset
 NewPreset=New Preset
 SaveAllPresets=Save All Presets

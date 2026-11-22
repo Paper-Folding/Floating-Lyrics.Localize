@@ -1,5 +1,9 @@
 ### Change Logs
 
+#### 1.5.0-rc.2 (2026.11.22)
+
+- Fix(#13): Embedded lyrics were not loaded with the refactoring of lyrics obtaining logic while implementing multiple window feature
+
 #### 1.5.0-rc.1 (2026.11.21)
 
 - Feat(#8): Multiple lyrics playing windows feature is now implemented!

@@ -6,6 +6,8 @@
 Name=Floating Lyrics Plugin
 Abbreviation=Floating Lyrics
 Warning=Warning
+OpenNew=Open New Window
+CloseAll=Close All Windows
 
 [FL_Preference]
 ResetDimension=Reset this Window Size

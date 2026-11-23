@@ -6,6 +6,8 @@
 Name=Plugin Lirik Mengambang
 Abbreviation=Lirik Mengambang
 Warning=Peringatan
+OpenNew=Open New Window
+CloseAll=Close All Windows
 
 [FL_Preference]
 ResetDimension=Kembalikan Ukuran Jendela ini

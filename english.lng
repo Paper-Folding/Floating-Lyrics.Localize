@@ -180,7 +180,7 @@ WebViewLowVersion=You are using an old version({0} < 124) of Edge WebView2, whic
 WebViewNavigationFailure=Edge WebView2 failed to navigate >.< Check if you have copied plugin files correctly. If problem still exists, please report developer, thank you!
 
 [FL_OptionFrame]
-BtnOpenPreferenceWindow=Presets & Preferences....
+BtnOpenPreferenceWindow=Presets && Preferences....
 GbLyricsWindowsHandyControl=Lyrics Playing Windows Batch Control
 BtnResetLyricsWindowLocation=Reset Lyrics Playing Window's Position and Dimension
 BtnDisableClickThrough=Disable Lyrics Playing Window Click-Through

@@ -180,7 +180,7 @@ WebViewLowVersion=Anda menggunakan versi lama({0} < 124) dari Edge WebView2, mun
 WebViewNavigationFailure=Edge WebView2 gagal dinavigasikan >.< Periksa jika anda menyalin berkas plugin dengan benar. Jika masalah ini masih berlanjut, silahkan laporkan ke pengembang, terima kasih!
 
 [FL_OptionFrame]
-BtnOpenPreferenceWindow=Presets & Preferences....
+BtnOpenPreferenceWindow=Presets && Preferences....
 GbLyricsWindowsHandyControl=Lyrics Playing Windows Batch Control
 BtnResetLyricsWindowLocation=Kembalikan Posisi Jendela Pemutaran dan Dimensi
 BtnDisableClickThrough=Nonaktifkan Jendela Pemutaran Lirik Klik-Lanjutkan

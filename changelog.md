@@ -1,5 +1,13 @@
 ### Change Logs
 
+#### 1.5.0-rc.3 (2026.11.24)
+
+- Feat: Add sub-menuitems to "Floating Lyrics" menu item on AIMP's main menu, allows to:
+    - Create new window
+    - Close all windows
+    - Open presets & preferences window
+- Optimize: Plugin's option frame within AIMP's preferences dialog
+
 #### 1.5.0-rc.2 (2026.11.22)
 
 - Fix(#13): Embedded lyrics were not loaded with the refactoring of lyrics obtaining logic while implementing multiple window feature
